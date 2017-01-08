@@ -1,0 +1,33 @@
+# Project: CS Figures
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe -D__DEBUG__
+CC   = gcc.exe -D__DEBUG__
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o obj_io.o $(RES)
+LINKOBJ  = main.o obj_io.o $(RES)
+LIBS =  -L"Z:/Dev-Cpp/lib" -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -L"Z:/CS FIGURES/CS Figures"  -g3 
+INCS =  -I"Z:/Dev-Cpp/include"  -I"Z:/CS FIGURES/CS Figures" 
+CXXINCS =  -I"Z:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"Z:/Dev-Cpp/include/c++/3.4.2/backward"  -I"Z:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"Z:/Dev-Cpp/include/c++/3.4.2"  -I"Z:/Dev-Cpp/include"  -I"Z:/CS FIGURES/CS Figures" 
+BIN  = "CS Figures.exe"
+CXXFLAGS = $(CXXINCS)   -g3
+CFLAGS = $(INCS)   -g3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before "CS Figures.exe" all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "CS Figures.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+obj_io.o: obj_io.cpp
+	$(CPP) -c obj_io.cpp -o obj_io.o $(CXXFLAGS)

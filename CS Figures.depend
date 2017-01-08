@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1481423543 source:z:\cs figures\cs figures\main.cpp
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<sstream>
+	<cmath>
+	<vector>
+	<conio.h>
+	<stdarg.h>
+	"wavfile.h"
+	"obj_io.hpp"
+	"graphics.cpp"
+
+1476655587 z:\cs figures\cs figures\wavfile.h
+	<stdio.h>
+	<inttypes.h>
+
+1474555235 z:\cs figures\cs figures\obj_io.hpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cmath>
+	<ctime>
+	<vector>
+	<cstring>
+
+1478884988 z:\cs figures\cs figures\graphics.cpp
+	<windows.h>
+	<limits.h>
+	<sstream>
+
+1476998593 source:z:\cs figures\cs figures\obj_io.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cmath>
+	<ctime>
+	<cstring>
+	"obj_io.hpp"
+
+1477002193 source:e:\cs figures\cs figures\obj_io.cpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cmath>
+	<ctime>
+	<cstring>
+	"obj_io.hpp"
+
+1474558835 e:\cs figures\cs figures\obj_io.hpp
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cmath>
+	<ctime>
+	<vector>
+	<cstring>
+
+1482467960 source:e:\cs figures\cs figures\main.cpp
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<sstream>
+	<cmath>
+	<vector>
+	<conio.h>
+	<stdarg.h>
+	"wavfile.h"
+	"obj_io.hpp"
+	"graphics.cpp"
+
+1476659187 e:\cs figures\cs figures\wavfile.h
+	<stdio.h>
+	<inttypes.h>
+
+1478884988 e:\cs figures\cs figures\graphics.cpp
+	<windows.h>
+	<limits.h>
+	<sstream>
+
